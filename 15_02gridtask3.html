@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        background-color: green;
+        height:200px;
+        width:400px;
+        padding:10px;
+        display:grid;
+        gap:10px;
+    }
+    .header{
+        display:grid;
+        background-color:lightblue;
+        grid-column-start: 1;
+        grid-column-end: 8;
+        justify-content: center;
+        align-content: center;
+    }
+    .menu{
+        background-color: lightblue;
+        display:grid;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        justify-content: center;
+        align-content: center;
+    }
+    .main{
+        background-color: lightblue;
+        display:grid;
+        grid-column-start: 2;
+        grid-column-end: 5;
+        justify-content: center;
+        align-content: center;
+
+    }
+    .right{
+        background-color: lightblue;
+        display:grid;
+        grid-column-start: 5;
+        grid-column-end: 8;
+        justify-content: center;
+        align-content: center;
+
+
+    }
+    .folder{
+        background-color: lightblue;
+        display:grid;
+        grid-column-start: 2;
+        grid-column-end: 8;
+        justify-content: center;
+        align-content: center;
+
+
+
+    }
+    .box{
+        /* border:2px solid black; */
+        height:400px;
+        width:400px;
+        background-color:green;
+        padding: 10px;
+        display:grid; 
+        gap:20px;
+    
+    }
+     .box1{
+        background-color: white;
+        display:grid;
+        grid-column-start: 1;
+        grid-column-end: 7;
+        justify-content: center;
+        align-content: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 30px;
+        color:blue
+    
+        
+    } 
+    .box2{
+        background-color: brown;
+        display:grid;
+        grid-row-start: 2;
+        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        justify-content: center;
+        align-content: center;
+    
+        
+        
+
+    }
+     .box3{
+        background-color: orange;
+        display:grid;
+        grid-row-start: 3;
+        grid-row-end: 6;
+        justify-content: center;
+        align-content: center;
+    
+         
+
+    }
+    .box4{
+        background-color: violet;
+        display:grid;
+        grid-column-start: 3;
+        grid-column-end: 7;
+        justify-content: center;
+        align-content: center;
+    
+    }
+    .box5{
+        background-color: blueviolet;
+        display:grid;
+        grid-row-start: 4;
+        grid-row-end: 6;
+        justify-content: center;
+        align-content: center;
+    
+    }
+    .box6{
+        background-color: aqua;
+        display:grid;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        justify-content: center;
+        align-content: center;
+    
+
+
+    }
+    @media  screen and (min-width:300px) and (max-width:600px) {
+     .image2{
+        display:none;
+     } 
+    }
+    @media  screen and (min-width:601px) and (max-width:900px) {
+        .image1{
+            display:none;
+        }
+    }
+
+
+  </style>  
+<body>
+    <div class="image1">
+    <div class="box">
+        <div class="header">HEADER</div>
+        <div class="menu">MENU</div>
+        <div class="main">MAIN</div>
+        <div class="right">RIGHT</div>
+        <div class="folder">FOLDER</div>
+    </div>
+    </div>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+  <div class="image2">
+    <div class="box">
+        <div class="box1">SUCCESS</div>
+        <div class="box2">Getting Along</div>
+        <div class="box3">organisation</div>
+       
+        <div class="box4">Emotional Resilience</div>
+        <div class="box5">persistence</div>
+        <div class="box6">confidence</div>
+        
+    </div>
+
+  </div>  
+</body>
+</html>
